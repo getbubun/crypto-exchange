@@ -1,0 +1,24 @@
+div#crypto-container {
+    background:white;
+    width: 80%;
+    margin: 0 auto 4px auto;
+    padding: 1em;
+    box-shadow: 1px 1px 0 lightgrey;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+   
+  }
+
+  .grid-container > div {
+    text-align: initial;
+    padding:  0;
+    font-size: 15px;
+  }
+  div.left {
+    font-weight: bold;
+  }
+  
+  
